@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(104,145,207,1) 17%);
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    .card:hover{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,94,29,0.8785889355742297) 50%, rgba(252,176,69,1) 100%);
+        transition: 0.5s;
+    }
+     
+    border-left: 5px solid black;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+    border-left-width: 15px;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

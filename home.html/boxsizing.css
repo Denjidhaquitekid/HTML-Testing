@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+    .box1{
+        background-color: black;
+        width: 300px;
+        margin-bottom:10px;
+        padding:20px;
+    }
+
+    .box2{
+        background-color: black;
+        width: 340px;;
+    }

@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ .Formcontainer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+ }
+    .Formcdesign{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        padding: 20px;
+    }
+    input{
+        padding: 10px 20px;
+        outline: none;
+        background-color: aliceblue;
+        border: none;
+    }
+    .loginbtn{
+        padding: 10px;
+        background-color: rgb(228, 223, 216);
+        border: none;
+    }
